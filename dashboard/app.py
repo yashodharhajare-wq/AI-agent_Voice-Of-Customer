@@ -3,7 +3,6 @@ import pandas as pd
 from collections import Counter
 import plotly.express as px
 from pathlib import Path
-import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -12,11 +11,6 @@ df = pd.read_pickle(
 )
 
 st.title("🎯 Voice of Customer - AI Intelligence Platform")
-
-# Load data
-df = pd.read_pickle(
-    r"C:\Users\yasho\Desktop\Mechanical Keyboard AI agent\outputs\normalized_insights.pkl"
-)
 
 # ------------------------
 # SIDEBAR
