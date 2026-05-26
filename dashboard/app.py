@@ -2,10 +2,13 @@ import streamlit as st
 import pandas as pd
 from collections import Counter
 import plotly.express as px
+from pathlib import Path
+import pandas as pd
 
-st.set_page_config(
-    page_title="Voice of Customer - AI Intelligence Platform",
-    layout="wide"
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+df = pd.read_pickle(
+    BASE_DIR / "outputs" / "normalized_insights.pkl"
 )
 
 st.title("🎯 Voice of Customer - AI Intelligence Platform")
