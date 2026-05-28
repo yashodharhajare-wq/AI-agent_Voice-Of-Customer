@@ -1,6 +1,6 @@
 # Voice of Customer AI Intelligence Platform
 
-### Transforming reddit Community Discussions into Actionable Product Intelligence using Local LLMs
+### Transforming reddit Community Discussions into Actionable Product Intelligence using Local LLM model
 
 🚀 **Live Demo:** https://voice-of-customer-ai-agent.streamlit.app/
 
