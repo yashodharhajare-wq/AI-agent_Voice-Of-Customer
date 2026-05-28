@@ -1,4 +1,4 @@
-# AI_Customer-Requirements-Analyst
+# AI Customer Requirements Analyst - voice-of-customer
 
 ### Transforming reddit Community Discussions into Actionable Product Intelligence using Local LLM model
 
